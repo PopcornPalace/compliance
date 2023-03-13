@@ -11,14 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Membership Audit Log
     steps:
-      - name: Membership Audit Log Action
-        uses: svanboxel/org-audit-action@master
-        with:
-          organization: 'PopcornPalace'
-          token: ${{ secrets.ORG_TOKEN }}
-          issue: true
-          affiliation: 'ALL'
-
       - name: Get Git Audit Log for Repos
         uses: nicklegan/github-org-git-audit-log-for-repos-action@v1.1.1
         with:
