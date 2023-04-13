@@ -1,3 +1,0 @@
-#! /bin/bash
-
-docker run --rm -v "$PWD":/source -p 4000:4000 -it strongdm/comply
