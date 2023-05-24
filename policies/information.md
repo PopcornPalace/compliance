@@ -2,7 +2,12 @@ name: Information Security Policy
 acronym: ISP
 satisfies:
   TSC:
-    - CC9.9
+    - CC1.2
+    - CC1.3
+    - CC2.1 
+    - CC5.1 
+    - CC5.2 
+    - CC5.3
 majorRevisions:
   - date: Jun 1 2018
     comment: Initial document
