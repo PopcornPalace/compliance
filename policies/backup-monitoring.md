@@ -21,15 +21,6 @@ The scope of this policy encompasses all data within DoubleGood Technology's sys
 # Policy
 The following guidelines and requirements apply to configure monitoring and alerting for backup and recovery process:
 
-## Data Classification and Retention
-a. Data Classification: All data within DoubleGood Technology's systems shall be classified based on its sensitivity and regulatory requirements.
-
-b. Data Retention Periods: The retention periods for different data categories shall be defined and documented, considering legal requirements, business needs, and industry standards. The following retention periods apply:
- - Financial and accounting data: 7 years
- - Customer personal information: 3 years after the end of the customer relationship
- - Employee records: 5 years after employment termination
- - System logs and audit trails: 1 year
-
 ## Backup Alerting and Monitoring Process
 a. Alerting and Monitoring: Activating and configuring notifications to monitor AWS Backup jobs provides the awareness of your backup activities, helps ensure that critical service-level agreements (SLAs) are met, enhances business-as-usual monitoring, helps meet compliance obligations. Set up monitoring configuration to obtain notifications when backup or restore, or copy jobs either failed, pending or in successful state to be informed about backup and restore process.
 
