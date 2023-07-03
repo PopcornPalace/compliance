@@ -30,3 +30,19 @@ b. Backup Notifications: An important aspect to protecting assets is the ability
 a. Regular Review: The alerting and monitoring policy, including the backup and restore aspects, shall be reviewed periodically to ensure compliance with changing legal and regulatory requirements.
 
 b. Policy Updates: Any necessary updates or revisions to the alerting and monitoring policy shall be documented, communicated, and implemented accordingly.
+
+## Tech Notes
+Monitor the number of failed backup and restore jobs within one or more specific backup vaults. When there are more than zero failed job within 1 hour, send an email, or SMS, or open a ticket to the engineering team to investigate. AWS Backup also integrates with Amazon Simple Notification Service, providing with backup activity notifications, such as when a backup succeeds or a restore has been initiated that makes it simple to audit backup and restore activity across AWS services.
+
+The following events are supported:
+1. BACKUP_JOB_FAILED - The number of backup jobs with status of Failed.
+2. BACKUP_JOB_EXPIRED - The number of backup jobs that AWS Backup attempted to delete based on your backup retention lifecycle, but could not delete. You are billed for the storage that expired backups consume and should delete them manually.
+3. BACKUP_JOB_COMPLETED - The number of backup jobs that AWS Backup finished.
+4. BACKUP_JOB_SUCCESSFUL - The number of backup jobs that AWS Backup finished successfuly.
+5. COPY_JOB_SUCCESSFUL -The number of cross-account and cross-Region copy jobs that AWS Backup finished successfuly.
+6. COPY_JOB_FAILED - The number of cross-account and cross-Region copy jobs that AWS Backup attempted but could not complete.
+7. RESTORE_JOB_FAILED - The number of restore jobs that AWS Backup attempted but could not complete.
+8. RESTORE_JOB_COMPLETED - The number of restore jobs that AWS Backup finished.
+9. RESTORE_JOB_SUCCESSFUL - The number of restore jobs that AWS Backup finished successfuly.
+10. S3_BACKUP_OBJECT_FAILED - The number of S3 backup jobs with status of Failed.
+11. S3_RESTORE_OBJECT_FAILED - The number of S3 restore jobs with status of Failed.
