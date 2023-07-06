@@ -38,11 +38,13 @@ b. Backup Storage: Backed-up data shall be securely stored in AWS S3 or other ap
 c. Backup Integrity: Regular tests and verifications shall be conducted to ensure the integrity and recoverability of backup data.
 
 ## Recovery Process
-a. Recovery Point Objective (RPO): DoubleGood Technology shall define the maximum acceptable data loss in the event of a system failure or data breach, aligning with the trust service principle of data availability.
+a. Recovery Point Objective (RPO): DoubleGood Technology shall define the maximum acceptable data loss in the event of a system failure or data breach, aligning with the trust service principle of data availability. The RPO requirement is set at 24 hours, meaning that in the event of a disruption, data should be recoverable up to a maximum of 24 hours prior to the incident.
 
-b. Recovery Time Objective (RTO): The timeframe within which data and systems should be restored after a disruption shall be determined and documented, considering the impact on business operations and the trust service principle of data availability.
+b. Recovery Time Objective (RTO): The timeframe within which data and systems should be restored after a disruption shall be determined and documented, considering the impact on business operations and the trust service principle of data availability. The RTO requirement is set at 6 hours, indicating that systems and data should be restored within a maximum of 6 hours following a disruption.
 
-c. Recovery Testing: Periodic recovery testing shall be conducted to validate the effectiveness and efficiency of the recovery process. This includes testing the restoration of data from backups to ensure the ability to recover critical systems and data.
+c. Recovery Testing: Periodic recovery testing shall be conducted to validate the effectiveness and efficiency of the recovery process. This includes testing the restoration of data from backups to ensure the ability to recover critical systems and data. The testing frequency and methodologies will be established to meet the RPO and RTO requirements.
+
+d. The data restoration procedures must be tested and documented. Documentation should include exactly who is responsible for the restore, how it is performed, under what circumstances it is to be performed, and how long it should take from request to restoration. It is extremely important that the procedures are clear and concise such that they are not A) misinterpreted by readers other than the backup administrator, and B) confusing during a time of crisis.
 
 ## Policy Review and Updates
 a. Regular Review: The backup and recovery policy, including the data retention aspects, shall be reviewed periodically to ensure compliance with changing legal and regulatory requirements.
@@ -50,7 +52,7 @@ a. Regular Review: The backup and recovery policy, including the data retention 
 b. Policy Updates: Any necessary updates or revisions to the retention policy shall be documented, communicated, and implemented accordingly.
 
 # Appendices
-## Journal of backups and recoveries
+## Example of journal of backups and recoveries
 
 |   Date      |    Time     |    Action                |    Responsible Person        |
 |-------------|-------------|--------------------------|------------------------------|
@@ -59,6 +61,6 @@ b. Policy Updates: Any necessary updates or revisions to the retention policy sh
 | 2023-05-16  |  09:30 AM   | Data recovery after      |        David Thompson        |
 |             |             | system failure           |                              |
 | 2023-05-18  |  11:45 AM   | Restoring files from     |        Emma Davis            |
-|             |             | backup for user          |                              |
+|             |             | backup for us            |                              |
 
 
