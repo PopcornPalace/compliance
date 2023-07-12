@@ -58,4 +58,3 @@ comply build
 # publish static site from output/ directory
 upload.sh output/
 ```
-update 12/07/2023
