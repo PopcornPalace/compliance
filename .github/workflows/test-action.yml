@@ -1,0 +1,10 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  check-test:
+    name: test-action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: PopcornPalace/test-action@main
+        with:
+          check_error: false
