@@ -7,7 +7,7 @@ majorRevisions:
   - date: Apr 18 2023
     comment: Initial document
   - date: Nov 21 2023
-    comment: Updated formatting
+    comment: Updated policy to use Github Copilot
 ---
 
 # Purpose
@@ -72,7 +72,7 @@ AI assistants and AI tools should not be used for any purpose that would violate
 Employees and contractors must report any suspected security or privacy breaches related to the use of AI assistants to their supervisor or manager immediately for investigation and remediation. The organization may also monitor the use of AI assistants and AI tools to ensure compliance with this policy and to protect the security and privacy of the organization.
 
 ## Enforcement
-Employees and contractors are responsible for their use of AI assistants and AI tools. Any violations of this policy may result in disciplinary actions, depending on the severity of the violation.
+Employees and contractors are responsible for their use of AI assistants and AI tools. Any violations of this policy may result in disciplinary actions, depending on the severity of the violation.       
 
 ## Feedback Mechanism
 Developers are encouraged to provide feedback, seek clarification, or report concerns regarding this policy.
