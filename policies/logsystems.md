@@ -2,7 +2,7 @@ name: Data Masking for Logging Systems
 acronym: DMLS
 satisfies:
   TSC:
-    - CC9.1
+    - CC7.2
 majorRevisions:
   - date: Jan 4 2024
     comment: Initial document
