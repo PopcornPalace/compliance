@@ -41,7 +41,8 @@ Examples of PII Fields:
 - Patronymic
 - Date of birth
 - Email address
-- Phone number
+- Phone number 
+  - **Exception**: Not masked unless required by law or regulation
 - Address
 - Government-Issued Documents:
     - Passport numbers
