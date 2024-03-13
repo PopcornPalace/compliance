@@ -90,10 +90,6 @@ a. *Disciplinary consequences*
 
     i. Employees who violate the confidentiality policy will face disciplinary and possible legal action. 
 
-    i. A suspected breach of this policy will trigger an investigation. Intentional violations will be met with termination and repeated unintentional violations may also face termination. 
-
-    i. This policy is binding even after the termination of employment. 
-
 
 
 
