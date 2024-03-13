@@ -15,9 +15,10 @@ majorRevisions:
 
 This policy establishes a standardized framework for onboarding and offboarding third-party partners (vendors, contractors, consultants) who require access to AWS and other database resources to deliver agreed-upon services. The primary purpose is to ensure:
 
-Secure and Compliant Access: Granting partners the minimum necessary access to perform their duties while adhering to the highest security standards and relevant data privacy regulations.
-Data Protection: Maintaining the confidentiality, integrity, and availability of company data through robust access controls and data security practices.
-SOC 2 Compliance: Aligning partner access management procedures with the SOC 2 trust principles for security, availability, processing integrity, confidentiality, and privacy.
+- **Secure and Compliant Access:** Granting partners the minimum necessary access to perform their duties while adhering to the highest security standards and relevant data privacy regulations.
+- **Data Protection:** Maintaining the confidentiality, integrity, and availability of company data through robust access controls and data security practices.
+- **SOC 2 Compliance:** Aligning partner access management procedures with the SOC 2 trust principles for security, availability, processing integrity, confidentiality, and privacy.
+
 This policy applies to all third-party partners requiring access to AWS and database resources to perform services for the company.
 
 # Background
@@ -40,7 +41,7 @@ Partners will be required to complete a qualification process demonstrating thei
 
 ## Access Control and Permissions
 
-The principle of least privilege will be strictly enforced. Partners will only be granted access to the specific AWS resources and databases required for their designated tasks, aligning with TSC CC7.4 (Least Privilege): [invalid URL removed] control objectives.
+The principle of least privilege will be strictly enforced. Partners will only be granted access to the specific AWS resources and databases required for their designated tasks, aligning with TSC CC7.4 (Least Privilege) control objectives.
 Granular access controls (IAM roles, user permissions) will be implemented to restrict unauthorized actions. These controls will be documented and reviewed regularly.
 Multi-factor authentication (MFA) will be mandatory for all partner accounts accessing AWS and database resources, following SOC 2 user authentication requirements.
 
@@ -50,7 +51,7 @@ Partners and their personnel requiring access will be required to complete secur
 
 ## Data Security and Compliance
 
-Partners are responsible for adhering to all company data security policies, relevant data privacy regulations (e.g., GDPR, CCPA), and TSC CC7.5 (Data Protection and Disposal): [invalid URL removed] controls.
+Partners are responsible for adhering to all company data security policies, relevant data privacy regulations (e.g., GDPR, CCPA), and TSC CC7.5 (Data Protection and Disposal) controls.
 Data access will be logged and monitored to track activity and identify any anomalies, in accordance with SOC 2 monitoring controls.
 Partners are prohibited from transferring or sharing company data with any unauthorized third party, complying with SOC 2 data protection objectives.
 
@@ -70,7 +71,7 @@ Upon partner termination, project completion, or change in personnel requiring a
 
 ## Data Archiving or Deletion
 
-Partner data will be archived or deleted according to the agreed-upon data retention policy, relevant regulations, and TSC CC7.5 (Data Protection and Disposal): [invalid URL removed] controls.
+Partner data will be archived or deleted according to the agreed-upon data retention policy, relevant regulations, and TSC CC7.5 (Data Protection and Disposal) controls.
 
 ## Exit Review
 
