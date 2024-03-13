@@ -12,20 +12,21 @@ majorRevisions:
 
 # Purpose and Scope
 
-a. This Security Incident Response Policy (SIRP) establishes controls to ensure:
-* Detection of security vulnerabilities and incidents
-* Prompt response and containment of security breaches
+a. The organization's Information Security Program prioritizes detecting vulnerabilities and preventing incidents.
+b. We are committed to protecting stakeholders from illegal or damaging actions 
+c. Despite preventative measures, incidents may occur. We are committed to a rapid response, including:
+* Identification
+* Containment
+* Investigation
+* Resolution
+* Communication
 
-b. This document provides procedures for security incident response, including:
-* Definitions
-* Procedures
-* Responsibilities
-* Performance measures (metrics and reporting mechanisms)
-
-c. This policy applies to all users of information systems within the organization, including:
-* Employees
-* Contractors
-* Third-party vendors with access to organizational systems
+d. This policy requires:
+* Reporting all suspected or actual vulnerabilities and incidents
+* Utilizing automated scanning and reporting mechanisms
+* Timely vulnerability resolution based on severity
+* Timely incident investigation based on severity
+* Defined procedures for confirmed data breaches
 
 # Background
 
