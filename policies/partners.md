@@ -7,7 +7,7 @@ satisfies:
     - CC7.4 - Least Privilege
     - CC7.5 - Data Protection and Disposal
 majorRevisions:
-  - date: Mar 13 2023
+  - date: Mar 14 2023
     comment: Initial policy
 ---
 
@@ -84,12 +84,13 @@ Reviewing access logs and permissions to identify any anomalies or unauthorized 
 Verifying that partners are following data security best practices as outlined in this policy.
 Assessing the effectiveness of security awareness training provided to partner personnel.
 This policy will be reviewed and updated periodically to reflect changes in the following areas:
- - AWS services and access controls.
- - Database security best practices.
- - Data privacy regulations.
- - SOC 2 control standards.
+
+   * AWS services and access controls.
+   * Database security best practices.
+   * Data privacy regulations.
+   * SOC 2 control standards.
   
 Partners will be notified of any updates to the policy and may be required to undergo additional training or complete a requalification process to ensure continued access.
 
-# Review and revision for policy:
+# Review and revision for policy
 This policy will be reviewed and revised periodically to ensure it remains relevant and effective.
