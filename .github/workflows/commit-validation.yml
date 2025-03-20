@@ -3,7 +3,8 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   check-validation:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.ARC_TINY_NAME_PRIMARY }}
+    timeout-minutes: 5
     name: Check commit signing
     steps:
       - name: Checkout
